@@ -47,6 +47,9 @@ settingsBtn.addEventListener("click", () => {
 })
 
 saveBtn.addEventListener("click", update)
+saveBtn.addEventListener("click", () => {
+	settings.classList.toggle("active")
+})
 
 update()
 setInterval(setTime, 1000)

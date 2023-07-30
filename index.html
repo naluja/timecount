@@ -8,19 +8,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a6428406eb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
+    <header>
+        <h1>Holiday countdown</h1>
+    </header>
     <div class="counter-app">
 
         <div class="settings">
-            <h1>Settings</h1>
+            <h2>Settings</h2>
 
-            <label for="event-name">Nazwa wydarzenia</label>
-            <input type="text" id="event-name" value="New Year">
+            <label for="event-name">Destination</label>
+            <input type="text" id="event-name" value="Bora-Bora">
             <table class="date">
                 <tr>
                     <td><label for="event-day">Day: </label></td>
@@ -28,9 +32,9 @@
                     <td><label for="event-year">Year: </label></td>
                 </tr>
                 <tr>
-                    <td><input type="number" id="event-day" min="1" max="31" value="31"></td>
-                    <td><input type="number" id="event-month" min="1" max="12" value="12"></td>
-                    <td><input type="number" id="event-year" min="2023" max="9999" value="2023"></td>
+                    <td><input type="number" id="event-day" min="1" max="31" value="01"></td>
+                    <td><input type="number" id="event-month" min="1" max="12" value="06"></td>
+                    <td><input type="number" id="event-year" min="2023" max="9999" value="2024"></td>
                 </tr>
             </table>
             <label for="event-image">Image link:</label>
