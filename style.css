@@ -202,21 +202,37 @@ input {
 	
 	
 	.app-body{
-		width: 350px;
+		width: 330px;
 		height: 400px;
 	}
 	.number{
-		font-size: 2rem;
+		font-size: 1.2rem;
 	}
-	h2{
-		font-size: 1.5rem;
+	h1{
+		font-size: 0.9rem;
 		margin-bottom: 1rem;
 	}
+	h1 span{
+		font-size: 0.9rem;
+	}
 	.settings{
+		left:0;
 		width: 250px;
-		height: 400px;
+		height: 370px;
 	}
 	.save{
 		font-size: 0.9rem;
+	}
+	.settings-btn{
+		padding: 10px 10px;
+	}
+	input{
+		font-size: 0.8rem;
+	}
+	.card-title{
+		font-size: 0.8rem;
+	}
+	.card{
+		padding: 20px 0px;
 	}
 }
