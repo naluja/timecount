@@ -28,11 +28,7 @@ body {
 	background-size: cover;
 	background-position: center;
 }
-h1{
-	font-size: 4rem;
-	font-family: 'Merriweather', serif;
-	margin-bottom: 50px;
-}
+
 .counter-app {
 	position: relative;
 }
@@ -80,13 +76,13 @@ h1{
 	background: var(--blue-gradient);
 	z-index: 3;
 }
-h3 {
+h1 {
 	font-size: 1.5rem;
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 300;
 }
-h3 span {
+h1 span {
 	font-size: 1.5rem;
 }
 .time-cards {
@@ -181,9 +177,7 @@ input {
 	
 }
 @media (max-width:576px){
-	h1{
-		font-size: 2.5rem;
-	}
+	
 	.app-body{
 		width: 370px;
 		height: 500px;
@@ -205,9 +199,8 @@ input {
 }
 
 @media (max-width:375px){
-	h1{
-		font-size: 2rem;
-	}
+	
+	
 	.app-body{
 		width: 350px;
 		height: 400px;
